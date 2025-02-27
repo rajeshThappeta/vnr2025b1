@@ -1,0 +1,23 @@
+#headingone{
+   color: white;
+   text-align: center;
+   /* text-decoration: line-through; */
+   text-transform: capitalize;
+   text-shadow:0px 0px 5px rgb(220, 8, 8);
+   letter-spacing: 10px;
+   word-spacing: 50px;
+   font-size: 70px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-style:italic; */
+    font-weight: 700;
+}
+
+#headingtwo{
+    color:lightblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    line-height: 1.5;  
+}
