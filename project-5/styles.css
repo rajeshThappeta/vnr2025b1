@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* header styles */
+.header {
+    background-image: url('../assets/demo-images/pexels-stefan-straka-27723-823841.jpg');
+    text-align: right;
+    padding: 150px;
+    background-size: 100% 700px;
+    opacity: 0.7;
+}
+
+.header h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.header p {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+
+.main h1 {
+    color: lightblue;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 40px 0px;
+}
+
+.main p {
+    margin: 20px 100px;
+    line-height: 1.7;
+    font-size: 1.3rem;
+    color: rgb(163, 160, 160);
+}
+
+
+/* image styles */
+img {
+    width: 280px;
+
+}
+
+img:hover{
+    background-color: lightskyblue;
+    box-shadow: 2px -2px 20px lightskyblue;
+}
+
+
+.images{
+    margin:20px 100px ;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
+
+.img3 {
+    display: block;
+    margin: auto;
+}

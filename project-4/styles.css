@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    width: 400px;
+    border: 10px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 2.6rem;
+    color:red;
+}
+
+li:nth-child(odd){
+    color:blue;
+}
+
+li:last-child{
+    color:chocolate;
+}
+
+
+
+li::before{
+    content: '👉';
+    margin-right: 10px;
+}
+
+/* li::after{
+    content: '➤';
+} */
+
+.para1::first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.para2::first-line{
+    color:crimson;
+}
