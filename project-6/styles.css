@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: lightcoral;
+    padding: 50px 10px;
+    left: 1500px;
+}
+
+/* top,bottom,left & right */
+
+.parent {
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+}
+
+/* common styles of children */
+.child {
+    width: 100px;
+    height: 100px;
+}
+
+/* unique styles of children */
+.child1 {
+    background-color: red;
+    /* position: relative;
+
+    top: 100px; */
+}
+
+.child2 {
+    background-color: blue;
+    /* position: absolute;
+    top:-50px;
+    left:-50px; */
+    position: sticky;
+    top:100px;
+}
+
+.child3 {
+    background-color: green;
+
+}

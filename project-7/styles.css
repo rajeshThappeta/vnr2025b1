@@ -1,0 +1,43 @@
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.img1{
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+    /* position: relative; */
+}
+
+.img2{
+    width: 400px;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+h1{
+    position: absolute;
+    top:100px;
+    left: 50px;
+    font-size: 3.5rem;
+    color:#619196;
+    font-family: fantasy;
+    letter-spacing: 15px;
+}
+
+.main{
+    padding: 100px;
+}
+
+.logo{
+    width: 100px;
+    position: fixed;
+    bottom: 50px;
+    right:50px;
+}
