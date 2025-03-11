@@ -1,0 +1,21 @@
+/* css variable */
+:root{
+    --light-blue:#1164e9;
+    
+}
+
+/* border radius */
+h1{
+    border: 5px solid black;
+    width: 600px;
+    border-radius: 25px;
+    color:var(--light-blue);
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+

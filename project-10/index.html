@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- form -->
+    <form>
+        <!-- username -->
+        <div class="gap">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <!-- password -->
+        <div class="gap">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <!-- number -->
+        <div class="gap">
+            <label for="salary">Salary</label>
+            <input type="number" name="salary" id="salary">
+        </div>
+        <!-- date -->
+         <div class="gap">
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob">
+         </div>
+         <!-- email -->
+          <div class="gap">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <!-- file -->
+           <div class="gap">
+            <label for="profile">Profile image</label>
+            <input type="file" name="profile" id="profile">
+           </div>
+
+           <!-- select -->
+            <div class="gap">
+                <label for="state">Select state</label>
+                <select name="state" id="state">
+                    <option value="kerala">Kerala</option>
+                    <option value="ap">Andhra pradesh</option>
+                    <option value="tg">Telangana</option>
+                </select>
+            </div>
+
+
+            <!-- checkboxes -->
+             <div class="gap">
+                <label>Select skills</label>
+                <!-- skill-1 -->
+                 <div>
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                 </div>
+                 <!-- skill-2 -->
+                 <div>
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                 </div>
+                 <!-- skill-3 -->
+                 <div>
+                    <input type="checkbox" name="react" id="react">
+                    <label for="react">ReactJS</label>
+                 </div>
+             </div>
+
+             <!-- radio -->
+              <div class="gap">
+                <label>Select gender</label>
+                <!-- male -->
+                 <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                 </div>
+                  <!-- female -->
+                  <div>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                 </div>
+              </div>
+
+            <!-- textarea -->
+             <div class="gap">
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback" rows="5"></textarea>
+             </div>
+
+           <!-- submit button -->
+            <button type="submit">Save</button>
+    </form>
+</body>
+
+</html>
