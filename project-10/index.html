@@ -15,7 +15,15 @@
         <!-- username -->
         <div class="gap">
             <label for="username">Username</label>
-            <input type="text" id="username" name="username">
+            <input type="text" 
+                    id="username" 
+                    name="username" 
+                    autocomplete="off"
+                    placeholder="username"
+                    required
+                    minlength="4"
+                    maxlength="6"
+                    >
         </div>
 
         <!-- password -->
@@ -103,3 +111,16 @@
 </body>
 
 </html>
+
+
+
+
+<!-- 
+
+required   -- the input shd be empty
+minlength  -- 
+maxlength  --
+pattern    -- regex
+
+
+-->

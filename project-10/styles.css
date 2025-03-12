@@ -9,13 +9,35 @@ form{
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     padding: 50px;
 }
 
 label{
     font-size: 1.5rem;
 }
+input{
+    outline: none;
+}
+/* input without focus */
+input:not(:focus){
+    border: 2px solid black !important;
+}
+/* input with focus */
+input:focus{
+    border: 2px solid orange ;
+}
+
+
+/* input is valid & with & without focus */
+input:not(:focus):valid,input:focus:valid{
+    border: 2px solid green !important;
+}
+/* input is invalid & with & without focus */
+input:focus:invalid,input:placeholder-shown{
+    border: 2px solid red ;
+}
+
 
 input[type='text'],
 input[type='password'],

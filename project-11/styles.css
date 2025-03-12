@@ -1,0 +1,54 @@
+.parent{
+    width: 700px;
+    height: 700px;
+    border: 2px solid blue;
+    margin: auto;
+    /* flex container */
+    display: flex;
+    /* flex-direction: row; */
+    /* horizontal alignment */
+    /* justify-content:space-around; */
+    /* vertical alignment */
+    /* align-items:flex-end ; */
+    
+
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    /* flex-grow: 1; */
+}
+
+.child1{
+    background-color: red;
+    flex-grow: 1;
+}
+
+.child2{
+    background-color: green;
+    flex-grow: 2;
+}
+
+.child3{
+    background-color: blue;
+    flex-grow: 3;
+}
+
+
+
+/* 
+
+
+700 100+100+100
+700-300=400
+
+400 1+2+3
+400/6=66.6
+
+child1 66.6+100= 166
+
+child2 66.6x2=133+100=233
+
+child3  66.6x3=199+100=299
+*/
