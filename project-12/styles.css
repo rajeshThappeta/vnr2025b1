@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --light-red: #CE4F65;
+    --light-grey: #F4F5F7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* navbar styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .nav-blog-title{
+    color: gray;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+nav span{
+    color:var(--light-red)
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    justify-content: space-evenly;
+
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    background-color: var(--light-red);
+    color: white;
+    border-radius: 4px;
+    padding: 4px 6px;
+    text-shadow: 0px 0px 10px var(--light-red);
+}
+
+nav form input{
+    margin-right: 0px;
+    border: none;
+    background-color: var(--light-grey);
+    padding: 6px;
+}
+
+nav form button{
+    border: none;
+    background-color: var(--light-red);
+    color:white;
+    padding: 6px;
+}
+
+
+/* main content */
+main{
+    background-color: var(--light-red);
+    padding: 30px 100px;
+}
+
+main .main-title{
+    color:white;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+main .main-title span{
+    font-size: 3rem;
+}
+
+main .main-side-heading{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+main .cards-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+main .author-name{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    
+}
+
+main img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #993546;
+}
+
+main .auth-desc{
+    color:white;
+    font-size: 0.8rem;
+    padding: 10px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main .profile-button{
+    border: none;
+    padding: 8px;
+    background-image: linear-gradient(#e1667a,#CE4F65,#9d3143);
+    color: white;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+    background-color: var(--light-grey);
+    color: gray;
+}
+
+footer div{
+    width: 300px;
+}
+
+footer h2{
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
