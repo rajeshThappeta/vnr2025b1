@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    column-count: 4;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-color: lightcoral;
+    column-rule-width: 10px;
+}
+
+h1{
+    column-span: all;
+}
+
+img{
+    column-span: all;
+    display: block;
+}

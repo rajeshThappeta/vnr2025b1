@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile{
+    width: 300px;
+    padding: 20px;
+}
+
+.profile img{
+    width: 100%;
+}
