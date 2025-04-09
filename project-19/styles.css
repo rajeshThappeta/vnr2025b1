@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(37, 37, 66);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav input {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+nav button {
+    display: none;
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: lightblue;
+}
+
+header .left {
+    width: 500px;
+}
+
+header .right {
+    width: 500px;
+}
+
+header .right img {
+    width: 100%;
+}
+
+/* main content */
+.main-content {
+    display: flex;
+
+}
+
+.main-content .sidebar {
+    width: 200px;
+    text-align: center;
+    line-height: 5;
+    border-right: 2px solid gray;
+}
+
+.main-content a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: blueviolet
+}
+
+.main-content .right-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+}
+
+.tech {
+    border-radius: 10px;
+    color: white;
+    place-items: center;
+    display: grid;
+    font-size: 3rem;
+}
+
+.tech-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: brown;
+}
+
+.tech-2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: rgb(57, 7, 103);
+}
+
+.tech-3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: chocolate;
+}
+
+.tech-4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgb(13, 172, 220);
+}
+
+.tech-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(173, 11, 14);
+}
+
+.tech-6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgb(237, 225, 8);
+}
+
+.tech-7 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgb(8, 84, 15);
+}
+
+/* form not required for medium devices */
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    nav form {
+        display: none;
+    }
+}
+
+/* the ul to be replaced with dropdown button for extra sm devces */
+@media screen and (max-width:576px) {
+    nav button {
+        display: inline;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav form {
+        display: none;
+    }
+
+    header .right {
+        display: none;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    
+    .main-content ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    .main-content .sidebar {
+        width: 100%;
+    }
+
+    .main-content .right-part {
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .tech {
+        grid-column: 1/2;
+    }
+
+    .tech-1 {
+        grid-row: 1/2;
+    }
+
+    .tech-2 {
+        grid-row: 2/3;
+    }
+
+    .tech-3 {
+        grid-row: 3/4;
+    }
+
+    .tech-4 {
+        grid-row: 4/5;
+    }
+
+    .tech-5 {
+        grid-row: 5/6;
+    }
+
+    .tech-6 {
+        grid-row: 6/7;
+    }
+
+    .tech-7 {
+        grid-row: 7/8;
+    }
+}

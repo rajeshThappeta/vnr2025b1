@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+/* color to be green for extra small devices */
+/* @media screen and (max-width: 576px){
+    body{
+        background-color: red;
+    }
+
+} */
+/* color to be yellow for small screens */
+/* @media screen and (min-width:577px) and (max-width:768px){
+    body{
+        background-color: yellow;
+    }
+} */
+
+/* color to be orange for medium screens */
+/* @media screen and (min-width:769px) and (max-width:992px) {
+    body{
+        background-color: orange;
+    }
+    
+} */
+/* color to be black for all other large screens */
+/* @media screen and (min-width:993px) {
+    body{
+        background-color: black;
+    }
+} */
+
+
+@media screen and (orientation: portrait) {
+        body{
+            background-color: lightblue;
+        }
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background-color: darkblue;
+    }
+}
+
+@media print {
+    body{
+        background-color: white;
+        color:black;
+    }
+}
