@@ -1,0 +1,10 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-placeholder{
+    height: 200px;
+}
