@@ -16,6 +16,75 @@
 
 <body>
 
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-warning">
+        <!-- logo -->
+        <a href="#" class="navbar-brand">LOGO</a>
+        <!-- button -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menu -->
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Signin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+        show
+    </button>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" id="sidebar">
+        <div class="offcanvas-header">Header</div>
+        <div class="offcanvas-body">Body</div>
+    </div>
+
+    <div class="container my-5">
+        <!-- button to invoke modal -->
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m">Click</button>
+        <!-- modal -->
+        <div class="modal fade " id="m" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- header -->
+                    <div class="modal-header">
+                        Header
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- body -->
+                    <div class="modal-body">
+
+                    </div>
+                    <!-- footer -->
+                    <div class="modal-footer">
+                        <button class="btn btn-success">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- add bootstrap.js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
