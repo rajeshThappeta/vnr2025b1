@@ -67,4 +67,17 @@ console.log(ar6)
 
 //Sort by creating new Array
 
+array=[90,89,45,32]
 //Iterate
+//basic for loop(index,element)
+//for of loop
+for(let v of array){
+    console.log(v)
+}
+
+array.forEach((element,index)=>{
+    console.log(element,"- ",index)
+})
+
+
+array.filter((a,b)=>console.log(a,b))
