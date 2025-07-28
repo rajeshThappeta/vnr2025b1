@@ -31,3 +31,9 @@ class Employee extends Person {
         this.designation = designation
     }
 }
+
+
+
+
+
+
