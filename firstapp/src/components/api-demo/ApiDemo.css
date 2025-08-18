@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+}
+
+h2{
+    color: lightgreen;
+    font-size: 3rem;
+}
+
+table{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
