@@ -1,5 +1,5 @@
 import './App.css'
-import ApiDemo from './components/api-demo/ApiDemo';
+import FormDemo from './components/form-demo/FormDemo';
 
 
 //create component
@@ -8,8 +8,8 @@ function App() {
   //return react element
   return (
     <div>
-      <h1>Welcome to React</h1>
-      <ApiDemo />
+     
+      <FormDemo />
 
     </div>
 

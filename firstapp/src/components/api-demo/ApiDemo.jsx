@@ -19,34 +19,37 @@ function ApiDemo() {
     }, [])
 
 
+    
 
 
-    return (
-        <div className='container'>
-            <h2>API Demo</h2>
-            {/* table opf posts */}
-            <table>
-                <thead>
-                    <tr>
-                        <th>UserID</th>
-                        <th>ID</th>
-                        <th>Title</th>
-                        <th>Body</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        posts.map(postObj => <tr key={postObj.id}>
-                            <td>{postObj.userId}</td>
-                            <td>{postObj.id}</td>
-                            <td>{postObj.title}</td>
-                            <td>{postObj.body}</td>
-                        </tr>)
-                    }
-                </tbody>
-            </table>
-        </div>
-    )
+
+
+        return (
+            <div className='container'>
+                <h2>API Demo</h2>
+                {/* table opf posts */}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>UserID</th>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Body</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            posts.map(postObj => <tr key={postObj.id}>
+                                <td>{postObj.userId}</td>
+                                <td>{postObj.id}</td>
+                                <td>{postObj.title}</td>
+                                <td>{postObj.body}</td>
+                            </tr>)
+                        }
+                    </tbody>
+                </table>
+            </div>
+        )
 }
 
 export default ApiDemo;
