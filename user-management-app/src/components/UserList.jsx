@@ -22,6 +22,9 @@ function UserList({ users, handleDeleteUser, handleUpdateUser }) {
               <td>
                 <button className="btn btn-danger" onClick={()=>handleDeleteUser(userObj.id)}>X</button>
               </td>
+              <td>
+                <button className="btn btn-warning" onClick={()=>handleUpdateUser(userObj)}>Edit</button>
+              </td>
             </tr>
           ))}
         </tbody>

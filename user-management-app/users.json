@@ -2,15 +2,9 @@
   "users": [
     {
       "id": "efe8",
-      "username": "kiran",
-      "dob": "2025-08-28",
-      "email": "kiran@gmail.com"
-    },
-    {
-      "id": "8204",
-      "username": "manoj",
-      "dob": "2025-08-14",
-      "email": "manoj@mail.com"
+      "username": "kiranbabu",
+      "dob": "2024-07-11",
+      "email": "kiranbabu@gmail.com"
     }
   ]
 }
