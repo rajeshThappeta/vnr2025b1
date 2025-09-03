@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "945c",
+      "productName": "washing machine",
+      "productBrand": "LG",
+      "productPrice": "60000"
+    },
+    {
+      "id": "4edd",
+      "productName": "LED TV",
+      "productBrand": "Sony",
+      "productPrice": "500000"
+    },
+    {
+      "id": "31b2",
+      "productName": "classic 350",
+      "productBrand": "Royal enfield",
+      "productPrice": "300000"
+    }
+  ]
+}
