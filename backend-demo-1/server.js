@@ -9,11 +9,17 @@ import { productRoute } from "./routes/productRoutes.js";
 //db config
 //create  database client
 const dbClient = new MongoClient("mongodb://localhost:27017");
+
 //connect
 dbClient
   .connect()
   .then(() => {
     //get database object
+    const dbObj=dbClient.db('vnrusers')
+    //get collection object
+    const usersCollectionObj=dbObj.collection("users")
+    //share usercCOllcetionObj
+    app.set("usersCollectionObj",usersCollectionObj)
         
     console.log("DB connection success");
     //start http server
@@ -40,3 +46,8 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   res.json({ message: "error occurred", reason: err.message });
 });
+
+
+
+
+

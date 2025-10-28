@@ -2,32 +2,32 @@ GET http://localhost:8080/user-api/users
 
 ###
 
-GET http://localhost:8080/user-api/users/100
+GET http://localhost:8080/user-api/users/vikas
 
 ###
 POST http://localhost:8080/user-api/user
 Content-Type: application/json
 
 {
-    "id":300,
-    "name":"manasa",
-    "age":25
+    
+    "productname":"tv",
+    "price":30000
 }
 
 
-### Update user by ID
-PUT http://localhost:8080/user-api/user/100
+### Update user by name
+PUT http://localhost:8080/user-api/user/vikas
 Content-Type: application/json
 
 {
-    "id": 100,
-    "name": "ravi kumar", 
-    "age": 25 
+    "name":"vikas",
+    "age":30,
+    "salary":70000
 }
 
 
 ### Delete user by id
-DELETE http://localhost:8080/user-api/user/300
+DELETE http://localhost:8080/user-api/user/manasa
 
 
 ### PRODUCT Req
